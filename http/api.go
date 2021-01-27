@@ -51,7 +51,3 @@ func init() {
 	http.HandleFunc("/api/append", AppendHandler)
 	go http.ListenAndServe(":8080", nil)
 }
-
-func Init() {
-
-}
